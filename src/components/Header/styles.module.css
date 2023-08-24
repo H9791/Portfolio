@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #eeeeee;
+    padding: 50px;
+
+    background-color: #f2bc94;
+    background-image: linear-gradient(to right, #300000, #600000);
+}
+.header_name {
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 30px;
+    width: 480px;
+    color: #f4af1b;
+}
+
+.navigation_list {
+    /* width: 100%; */
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 480px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* .navigation {
+    width: 50%;
+} */

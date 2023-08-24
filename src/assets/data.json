@@ -1,0 +1,43 @@
+{
+    "projects": [
+        {
+            "name": "Agence immobiliere",
+            "image": "pathtopicture"
+        },
+        {
+            "name": "Another project",
+            "image": "pathtopicture"
+        },
+        {
+            "name": "Third project",
+            "image": "pathtopicture"
+        },
+        {
+            "name": "Fourth project",
+            "image": "pathtopicture"
+        }
+    ],
+    "aboutme": "Short description of myself",
+    "skills": [
+        {
+            "name": "React",
+            "image": "./src/assets/React-icon.svg"
+        },
+        {
+            "name": "TypeScript",
+            "image": "./src/assets/ts-logo-128.svg"
+        },
+        {
+            "name": "JavaScript",
+            "image": "./src/assets/JavaScript_logo.svg"
+        },
+        {
+            "name": "HTML",
+            "image": "./src/assets/HTML5_logo.svg"
+        },
+        {
+            "name": "CSS",
+            "image": "./src/assets/CSS3_logo.svg"
+        }
+    ]
+}
