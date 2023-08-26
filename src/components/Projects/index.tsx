@@ -11,7 +11,12 @@ const Projects = () => {
                     {data.projects.map((project) => {
                         return (
                             <article className={styles.project}>
-                                {project.name}
+                                <a target="_blank" href={project.url}>
+                                    <img
+                                        className={styles.project_image}
+                                        src={project.image}
+                                    ></img>
+                                </a>
                             </article>
                         );
                     })}

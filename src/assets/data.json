@@ -2,19 +2,23 @@
     "projects": [
         {
             "name": "Agence immobiliere",
-            "image": "pathtopicture"
+            "image": "./src/assets/kasa-banner.webp",
+            "url": "https://github.com/H9791/Kasa"
         },
         {
-            "name": "Another project",
-            "image": "pathtopicture"
+            "name": "Sophie Bluel",
+            "image": "./src/assets/p6-sophiebluel.webp",
+            "url": "https://github.com/H9791/P6-Frontend-Sophie-Bluel/"
         },
         {
-            "name": "Third project",
-            "image": "pathtopicture"
+            "name": "OhMyFood",
+            "image": "./src/assets/p4-ohmyfood.webp",
+            "url": "https://github.com/H9791/OhMyFood/"
         },
         {
-            "name": "Fourth project",
-            "image": "pathtopicture"
+            "name": "Booki",
+            "image": "./src/assets/p3-booki-portf.webp",
+            "url": "https://github.com/H9791/P3-Booki"
         }
     ],
     "aboutme": "Short description of myself",

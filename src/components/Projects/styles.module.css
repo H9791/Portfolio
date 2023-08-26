@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     padding: 50px;
-    background-color: #f2bc94;
+    color: #101010;
+    /* background-color: #f2bc94; */
 }
 
 .projects_heading {
@@ -21,14 +22,19 @@
 .project {
     width: 500px;
     height: 500px;
-    background-color: #e2ac84;
+    /* background-color: #e2ac84; */
 
     box-shadow: rgba(0, 0, 0, 0.3) 1px 4px 6px 1px;
     transition: all 0.3s linear;
-    border: 10px solid #f3bd95;
+    /* border: 10px solid #f3bd95; */
 }
 
 .project:hover {
     box-shadow: rgba(0, 0, 0, 0.4) 3px 8px 10px 3px;
     transform: scale(1.02);
+}
+
+.project_image {
+    width: 100%;
+    aspect-ratio: 1/1;
 }

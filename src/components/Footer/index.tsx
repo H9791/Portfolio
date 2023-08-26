@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import github_logo from "../../assets/github-mark-white.svg";
+import github_logo from "../../assets/github-mark.svg";
 
 const Footer = () => {
     return (

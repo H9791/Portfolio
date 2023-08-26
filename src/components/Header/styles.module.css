@@ -3,18 +3,19 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    color: #eeeeee;
+    color: #101010;
     padding: 50px;
-
-    background-color: #f2bc94;
-    background-image: linear-gradient(to right, #300000, #600000);
+    background-color: white;
+    /* background-color: #f2bc94; */
+    /* background-image: linear-gradient(to right, #300000, #600000); */
 }
 .header_name {
     text-align: center;
     font-weight: 800;
     padding-bottom: 30px;
     width: 480px;
-    color: #f4af1b;
+    color: #101010;
+    /* color: #f4af1b; */
 }
 
 .navigation_list {
