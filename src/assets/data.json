@@ -1,6 +1,11 @@
 {
     "projects": [
         {
+            "name": "ArgentBank",
+            "image": "./src/assets/p11-bank-home.webp",
+            "url": "https://github.com/H9791/ArgentBank"
+        },
+        {
             "name": "Agence immobiliere",
             "image": "./src/assets/kasa-banner.webp",
             "url": "https://github.com/H9791/Kasa"
@@ -19,6 +24,11 @@
             "name": "Booki",
             "image": "./src/assets/p3-booki-portf.webp",
             "url": "https://github.com/H9791/P3-Booki"
+        },
+        {
+            "name": "Print It!",
+            "image": "./src/assets/p5-printit.webp",
+            "url": "https://github.com/H9791/Print_It"
         }
     ],
     "aboutme": "Short description of myself",
