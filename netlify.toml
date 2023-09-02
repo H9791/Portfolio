@@ -1,3 +1,0 @@
-[functions]
-    included_files = ["src/assets/**"]
-    directory = "src/assets/"
