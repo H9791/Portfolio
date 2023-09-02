@@ -10,7 +10,10 @@ const Projects = () => {
                     {/* <div className={styles.project}> */}
                     {data.projects.map((project) => {
                         return (
-                            <article className={styles.project}>
+                            <article
+                                className={styles.project}
+                                key={project.url}
+                            >
                                 <a target="_blank" href={project.url}>
                                     <img
                                         className={styles.project_image}

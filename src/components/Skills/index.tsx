@@ -10,7 +10,7 @@ const Skills = () => {
                 <div className={styles.skills}>
                     {data.skills.map((skill) => {
                         return (
-                            <p className={styles.skill_item}>
+                            <p className={styles.skill_item} key={skill.name}>
                                 <img
                                     className={styles.skill_img}
                                     src={skill.image}
