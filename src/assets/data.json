@@ -2,32 +2,32 @@
     "projects": [
         {
             "name": "ArgentBank",
-            "image": "./public/p11-bank-home.webp",
+            "image": "./p11-bank-home.webp",
             "url": "https://github.com/H9791/ArgentBank"
         },
         {
             "name": "Agence immobiliere",
-            "image": "./public/kasa-banner.webp",
+            "image": "./kasa-banner.webp",
             "url": "https://github.com/H9791/Kasa"
         },
         {
             "name": "Sophie Bluel",
-            "image": "./public/p6-sophiebluel.webp",
+            "image": "./p6-sophiebluel.webp",
             "url": "https://github.com/H9791/P6-Frontend-Sophie-Bluel/"
         },
         {
             "name": "OhMyFood",
-            "image": "./public/p4-ohmyfood.webp",
+            "image": "./p4-ohmyfood.webp",
             "url": "https://github.com/H9791/OhMyFood/"
         },
         {
             "name": "Booki",
-            "image": "./public/p3-booki-portf.webp",
+            "image": "./p3-booki-portf.webp",
             "url": "https://github.com/H9791/P3-Booki"
         },
         {
             "name": "Print It!",
-            "image": "./public/p5-printit.webp",
+            "image": "./p5-printit.webp",
             "url": "https://github.com/H9791/Print_It"
         }
     ],
@@ -35,23 +35,23 @@
     "skills": [
         {
             "name": "React",
-            "image": "./public/React-icon.svg"
+            "image": "./React-icon.svg"
         },
         {
             "name": "TypeScript",
-            "image": "./public/ts-logo-128.svg"
+            "image": "./ts-logo-128.svg"
         },
         {
             "name": "JavaScript",
-            "image": "./public/JavaScript_logo.svg"
+            "image": "./JavaScript_logo.svg"
         },
         {
             "name": "HTML",
-            "image": "./public/HTML5_logo.svg"
+            "image": "./HTML5_logo.svg"
         },
         {
             "name": "CSS",
-            "image": "./public/CSS3_logo.svg"
+            "image": "./CSS3_logo.svg"
         }
     ]
 }
