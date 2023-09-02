@@ -1,2 +1,3 @@
 [functions]
-  included_files = ["src/assets/**"]
+    included_files = ["src/assets/**"]
+    directory = "src/assets/"
