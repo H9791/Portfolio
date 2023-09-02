@@ -2,32 +2,32 @@
     "projects": [
         {
             "name": "ArgentBank",
-            "image": "./src/assets/p11-bank-home.webp",
+            "image": "./public/p11-bank-home.webp",
             "url": "https://github.com/H9791/ArgentBank"
         },
         {
             "name": "Agence immobiliere",
-            "image": "./src/assets/kasa-banner.webp",
+            "image": "./public/kasa-banner.webp",
             "url": "https://github.com/H9791/Kasa"
         },
         {
             "name": "Sophie Bluel",
-            "image": "./src/assets/p6-sophiebluel.webp",
+            "image": "./public/p6-sophiebluel.webp",
             "url": "https://github.com/H9791/P6-Frontend-Sophie-Bluel/"
         },
         {
             "name": "OhMyFood",
-            "image": "./src/assets/p4-ohmyfood.webp",
+            "image": "./public/p4-ohmyfood.webp",
             "url": "https://github.com/H9791/OhMyFood/"
         },
         {
             "name": "Booki",
-            "image": "./src/assets/p3-booki-portf.webp",
+            "image": "./public/p3-booki-portf.webp",
             "url": "https://github.com/H9791/P3-Booki"
         },
         {
             "name": "Print It!",
-            "image": "./src/assets/p5-printit.webp",
+            "image": "./public/p5-printit.webp",
             "url": "https://github.com/H9791/Print_It"
         }
     ],
@@ -35,23 +35,23 @@
     "skills": [
         {
             "name": "React",
-            "image": "./src/assets/React-icon.svg"
+            "image": "./public/React-icon.svg"
         },
         {
             "name": "TypeScript",
-            "image": "./src/assets/ts-logo-128.svg"
+            "image": "./public/ts-logo-128.svg"
         },
         {
             "name": "JavaScript",
-            "image": "./src/assets/JavaScript_logo.svg"
+            "image": "./public/JavaScript_logo.svg"
         },
         {
             "name": "HTML",
-            "image": "./src/assets/HTML5_logo.svg"
+            "image": "./public/HTML5_logo.svg"
         },
         {
             "name": "CSS",
-            "image": "./src/assets/CSS3_logo.svg"
+            "image": "./public/CSS3_logo.svg"
         }
     ]
 }
