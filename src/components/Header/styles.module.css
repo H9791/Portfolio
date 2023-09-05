@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    color: #101010;
+    color: #999;
     padding: 50px;
-    background-color: white;
+    /* background-color: white; */
     /* background-color: #f2bc94; */
     /* background-image: linear-gradient(to right, #300000, #600000); */
 }
@@ -14,7 +14,7 @@
     font-weight: 800;
     padding-bottom: 30px;
     width: 480px;
-    color: #101010;
+    color: #999;
     /* color: #f4af1b; */
 }
 
