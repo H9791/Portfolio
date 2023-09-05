@@ -8,7 +8,7 @@ import Particles from "react-tsparticles";
 import type { Container, Engine } from "tsparticles-engine";
 
 // import { loadTrianglesPreset } from "tsparticles-preset-triangles";
-import customPreset from "../../assets/particlesparallax.json";
+// import customPreset from "../../assets/particlesparallax.json";
 import { loadSlim } from "tsparticles-slim";
 
 export default function RootLayout() {
