@@ -10,6 +10,8 @@
     /* background-image: linear-gradient(to right, #ddd, #f9f9f9); */
     color: #000555;
     /* background-color: #eee; */
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 footer * {
