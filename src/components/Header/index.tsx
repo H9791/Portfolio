@@ -3,7 +3,10 @@ import styles from "./styles.module.css";
 const Header = () => {
     return (
         <div className={styles.header}>
-            <h1 className={styles.header_name}>JAN GREN - REACT DEVELOPER</h1>
+            <h1 className={styles.header_name}>
+                <p>JAN GREN</p>
+                <p>REACT DEVELOPER</p>
+            </h1>
             <nav className={styles.navigation}>
                 <ul className={styles.navigation_list}>
                     <li>

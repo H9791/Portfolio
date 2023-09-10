@@ -14,9 +14,9 @@ const Footer = () => {
                 </a>
             </p>
             <h2 id="contact">CONTACT</h2>
-            <p>TEL: (+33) 123456789</p>
-            <p>EMAIL: JAN.GREN[AT]MYMAIL[DOT]COM</p>
-            <p className={styles.footer_content}>COPYRIGHT © JAN GREN</p>
+            <p>(+33) 123456789</p>
+            <p>JAN.GREN[AT]MYMAIL[DOT]COM</p>
+            <p className={styles.footer_content}>COPYRIGHT ©2023 JAN GREN</p>
         </footer>
     );
 };
