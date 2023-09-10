@@ -42,3 +42,9 @@
     /* box-shadow: rgba(0, 0, 0, 0.4) 3px 8px 10px 3px; */
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 480px) {
+    .skills_section {
+        padding: 50px 20px;
+    }
+}

@@ -26,16 +26,26 @@
     justify-items: center;
     justify-content: space-around;
     text-decoration: none;
-    width: 480px;
 }
 
 ul {
     list-style-type: none;
 }
 
+ul li {
+    padding-left: 7px;
+    padding-right: 7px;
+    text-wrap: nowrap;
+}
 .a_link {
     color: #000555;
 }
 a_link:visited {
     color: #000555;
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 50px 20px;
+    }
 }

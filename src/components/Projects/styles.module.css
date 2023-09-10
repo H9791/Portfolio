@@ -56,8 +56,13 @@
     aspect-ratio: 1/1;
 }
 
-@media screen and (max-width: 768px) {
-    .projects {
-        grid-template-columns: 1fr;
+@media screen and (max-width: 480px) {
+    .projects_heading {
+        /* grid-template-columns: 1fr; */
+        padding-bottom: 20px;
+    }
+
+    .section_carousel {
+        padding-top: 30px;
     }
 }

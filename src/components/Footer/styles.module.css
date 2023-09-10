@@ -10,8 +10,6 @@
     /* background-image: linear-gradient(to right, #ddd, #f9f9f9); */
     color: #000555;
     /* background-color: #eee; */
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 footer * {
@@ -27,4 +25,10 @@ footer * {
 .github_img {
     height: 60px;
     width: 60px;
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 50px 20px;
+    }
 }
