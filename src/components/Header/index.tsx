@@ -7,16 +7,24 @@ const Header = () => {
             <nav className={styles.navigation}>
                 <ul className={styles.navigation_list}>
                     <li>
-                        <a href="#about">ABOUT ME</a>
+                        <a className={styles.a_link} href="#about">
+                            ABOUT ME
+                        </a>
                     </li>
                     <li>
-                        <a href="#projects">PROJECTS</a>
+                        <a className={styles.a_link} href="#projects">
+                            PROJECTS
+                        </a>
                     </li>
                     <li>
-                        <a href="#skills">SKILLS</a>
+                        <a className={styles.a_link} href="#skills">
+                            SKILLS
+                        </a>
                     </li>
                     <li>
-                        <a href="#contact">CONTACT</a>
+                        <a className={styles.a_link} href="#contact">
+                            CONTACT
+                        </a>
                     </li>
                 </ul>
             </nav>
