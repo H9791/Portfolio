@@ -1,13 +1,19 @@
-import data from "../../assets/data.json";
 import styles from "./styles.module.css";
+import ProjectsCarousel from "../Carousel";
 
 const Projects = () => {
     return (
         <>
-            <section className={styles.projects_container}>
+            <section className={styles.section_carousel}>
+                <h2 id="projects" className={styles.projects_heading}>
+                    PROJECTS
+                </h2>
+                <ProjectsCarousel />
+            </section>
+
+            {/* <section className={styles.projects_container}>
                 <h2 className={styles.projects_heading}>Projects</h2>
                 <div className={styles.projects}>
-                    {/* <div className={styles.project}> */}
                     {data.projects.map((project) => {
                         return (
                             <article
@@ -23,9 +29,8 @@ const Projects = () => {
                             </article>
                         );
                     })}
-                    {/* </div> */}
                 </div>
-            </section>
+            </section> */}
         </>
     );
 };

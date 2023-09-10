@@ -6,7 +6,9 @@ const Skills = () => {
     return (
         <>
             <section className={styles.skills_section}>
-                <h2 className={styles.skills_heading}>Skills</h2>
+                <h2 id="skills" className={styles.skills_heading}>
+                    SKILLS
+                </h2>
                 <div className={styles.skills}>
                     {data.skills.map((skill) => {
                         return (

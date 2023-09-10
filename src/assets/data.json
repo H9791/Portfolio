@@ -46,6 +46,10 @@
             "image": "./JavaScript_logo.svg"
         },
         {
+            "name": "CSharp",
+            "image": "./csharp_logo.jpg"
+        },
+        {
             "name": "HTML",
             "image": "./HTML5_logo.svg"
         },
