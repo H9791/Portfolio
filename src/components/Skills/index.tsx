@@ -21,6 +21,10 @@ const Skills = () => {
                         );
                     })}
                 </div>
+                <ul className={styles.skills_other}>
+                    <li>SEARCH ENGINE OPTIMIZATION (SEO) </li>
+                    <li>ACCESSIBILITY OPTIMIZATION </li>
+                </ul>
             </section>
         </>
     );

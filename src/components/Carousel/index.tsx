@@ -18,9 +18,11 @@ const ProjectsCarousel = () => {
                     userSelect: "none",
                 },
             }}
-            delay={100}
-            autoplayDelay={1}
+            autoplay={true}
+            delay={10}
+            autoplayDelay={3000}
             preventScrollOnSwipe
+            easing="ease"
             swipeTreshold={60}
             activeSlideIndex={activeSlide}
             activeSlideProps={{
@@ -92,7 +94,7 @@ const ProjectsCarousel = () => {
                 },
             }}
             itemsToShow={3}
-            speed={400}
+            speed={2500}
             centerMode
         >
             {data.projects.map((project) => {
