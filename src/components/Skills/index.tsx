@@ -16,14 +16,18 @@ const Skills = () => {
                                 <img
                                     className={styles.skill_img}
                                     src={skill.image}
+                                    title={skill.name}
                                 ></img>
                             </p>
                         );
                     })}
                 </div>
                 <ul className={styles.skills_other}>
-                    <li>SEARCH ENGINE OPTIMIZATION (SEO) </li>
-                    <li>ACCESSIBILITY OPTIMIZATION </li>
+                    <li>
+                        {data.skills_text.map((skill) => {
+                            return <li>{skill}</li>;
+                        })}
+                    </li>
                 </ul>
             </section>
         </>

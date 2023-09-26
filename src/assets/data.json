@@ -38,12 +38,20 @@
             "image": "./React-icon.svg"
         },
         {
+            "name": "Redux",
+            "image": "./redux_logo.jpg"
+        },
+        {
             "name": "TypeScript",
             "image": "./ts-logo-128.svg"
         },
         {
             "name": "JavaScript",
             "image": "./JavaScript_logo.svg"
+        },
+        {
+            "name": "MongoDB",
+            "image": "./mongo.jpg"
         },
         {
             "name": "CSharp",
@@ -56,6 +64,65 @@
         {
             "name": "CSS",
             "image": "./CSS3_logo.svg"
+        },
+        {
+            "name": "SASS",
+            "image": "./sass.jpg"
+        },
+        {
+            "name": "Git",
+            "image": "./git-logo.jpg"
+        },
+        {
+            "name": "NPM",
+            "image": "./npm-logo.jpg"
+        },
+        {
+            "name": "Api Rest",
+            "image": "./restapi-logo.jpg"
+        },
+        {
+            "name": "Figma",
+            "image": "./figma-logo.jpg"
+        },
+        {
+            "name": "KANBAN",
+            "image": "./kanban-logo.jpg"
+        },
+        {
+            "name": "SCRUM",
+            "image": "./scrum-logo.jpg"
+        },
+        {
+            "name": "Swagger",
+            "image": "./swagger-logo.jpg"
         }
+    ],
+    "skills_text": [
+        "Install a front-end development environment",
+        "Integrate content according to a template using HTML and CSS",
+        "Implement a responsive interface with HTML and CSS",
+        "Develop a web interface with Sass",
+        "Implementing CSS animations",
+        "Version your project with Git and Github",
+        "Manipulating DOM elements with JavaScript",
+        "Retrieving user data in JavaScript via forms",
+        "Managing user events with JavaScript",
+        "Monitor project progress using a project management tool",
+        "Present a technical solution",
+        "Break down functionalities into tasks to prepare for development",
+        "Implement a technology watch method",
+        "Write technical specifications for a web project based on functional requirements",
+        "Develop website interface elements using React components",
+        "Initialize an application with Create React App",
+        "Configure navigation between application pages with React Router",
+        "Optimizing website performance with Google Rich Snippet, Wave and Lighthouse extension",
+        "SEARCH ENGINE OPTIMIZATION (SEO)",
+        "ACCESSIBILITY OPTIMIZATION",
+        "Debugging a website with Chrome DevTools",
+        "Displaying back-end data on the interface via API calls",
+        "Configure API routes for client/server communication",
+        "Implement data management with Redux to ensure front-end operation",
+        "Deploying a static site online"
     ]
 }
