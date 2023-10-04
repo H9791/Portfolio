@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 //import ReactIcon from "../../assets/React-icon.svg";
 import data from "../../assets/data.json";
-
+import hand from "../../../public/hand-point-right-solid.svg";
 const Skills = () => {
     return (
         <>
@@ -22,13 +22,31 @@ const Skills = () => {
                         );
                     })}
                 </div>
-                <ul className={styles.skills_other}>
-                    <li>
-                        {data.skills_text.map((skill) => {
-                            return <li>{skill}</li>;
-                        })}
-                    </li>
-                </ul>
+
+                {/* {
+                    <ul className={styles.skills_other}>
+                        <li>
+                            {data.skills_text.map((skill) => {
+                                return <li>{skill}</li>;
+                            })}
+                        </li>
+                    </ul>
+                } */}
+
+                <div className={styles.skills_justified}>
+                    {data.skills_text.map((skill) => {
+                        return (
+                            <>
+                                {" "}
+                                <img
+                                    className={styles.skills_hand}
+                                    src={hand}
+                                ></img>{" "}
+                                {skill}
+                            </>
+                        );
+                    })}
+                </div>
             </section>
         </>
     );

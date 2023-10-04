@@ -12,6 +12,7 @@
 
 .about_content {
     margin-top: 20px;
-    text-align: center;
-    text-decoration: uppercase;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
 }
