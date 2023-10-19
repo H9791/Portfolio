@@ -124,5 +124,12 @@
         "Configure API routes for client/server communication",
         "Implement data management with Redux to ensure front-end operation",
         "Deploying a static site online"
-    ]
+    ],
+    "me_description": [
+        "I am a passionate software engineer that specializes in developing modern, responsive and SEO optimized websites with React and Typescript. Currently based in France I am looking for exciting opportunities in my home country or with foreign companies. I have successfully completed an associate's degree in the field of web development in France. This practical training consisted of coding 12 projects of increasing complexity and allowed me to obtain solid skills in core technologies for web development, e.g. HTML, CSS, JavaScript, Typescript, React, Redux and others."
+    ],
+    "me_contact": {
+        "tlf": "+33 123456789",
+        "email": "jan.gren[at]mymail.com"
+    }
 }

@@ -28,6 +28,10 @@
     text-decoration: none;
 }
 
+.block_display {
+    display: block;
+}
+
 ul {
     list-style-type: none;
 }
@@ -35,7 +39,7 @@ ul {
 ul li {
     padding-left: 7px;
     padding-right: 7px;
-    text-wrap: nowrap;
+    /* text-wrap: nowrap; */
 }
 .a_link {
     color: #000555;

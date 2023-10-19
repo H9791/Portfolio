@@ -100,34 +100,18 @@ const ProjectsCarousel = () => {
             {data.projects.map((project) => {
                 return (
                     <div key={project.name}>
-                        <article className={styles.project} key={project.url}>
+                        <div className={styles.project} key={project.url}>
                             <a target="_blank" href={project.url}>
                                 <img
                                     className={styles.project_image}
                                     src={project.image}
+                                    alt={project.name}
                                 ></img>
                             </a>
-                        </article>
+                        </div>
                     </div>
                 );
             })}
-            {/* 
-            {Array.from({ length: 10 }).map((item, index) => (
-                <div
-                    style={{
-                        background: "yellow",
-                        width: 300,
-                        height: 300,
-                        border: "30px solid white",
-                        textAlign: "center",
-                        lineHeight: "240px",
-                        boxSizing: "border-box",
-                    }}
-                    key={index}
-                >
-                    {index}
-                </div>
-            ))} */}
         </Carousel>
     );
 };

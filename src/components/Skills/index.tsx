@@ -17,6 +17,7 @@ const Skills = () => {
                                     className={styles.skill_img}
                                     src={skill.image}
                                     title={skill.name}
+                                    alt={skill.name}
                                 ></img>
                             </p>
                         );
@@ -41,6 +42,7 @@ const Skills = () => {
                                 <img
                                     className={styles.skills_hand}
                                     src={hand}
+                                    alt="hand pointer"
                                 ></img>{" "}
                                 {skill}
                             </>

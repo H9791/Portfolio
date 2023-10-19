@@ -4,9 +4,10 @@ const Header = () => {
     return (
         <div className={styles.header}>
             <h1 className={styles.header_name}>
-                <p>JAN GREN</p>
-                <p>REACT DEVELOPER</p>
+                <span className={styles.block_display}>JAN GREN</span>
+                <span className={styles.block_display}>REACT DEVELOPER</span>
             </h1>
+
             <nav className={styles.navigation}>
                 <ul className={styles.navigation_list}>
                     <li>
