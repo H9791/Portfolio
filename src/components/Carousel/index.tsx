@@ -2,6 +2,8 @@ import Carousel from "react-simply-carousel";
 import { useState } from "react";
 import styles from "./styles.module.css";
 import data from "../../assets/data.json";
+import chevron_left from "../../assets/chevron-left-solid.svg";
+import chevron_right from "../../assets/chevron-right-solid.svg";
 
 const ProjectsCarousel = () => {
     const [activeSlide, setActiveSlide] = useState(0);
@@ -32,7 +34,12 @@ const ProjectsCarousel = () => {
             }}
             onRequestChange={setActiveSlide}
             forwardBtnProps={{
-                children: ">",
+                children: (
+                    <img
+                        className={styles.project_chevron}
+                        src={chevron_right}
+                    ></img>
+                ),
                 style: {
                     width: 60,
                     height: 60,
@@ -51,7 +58,12 @@ const ProjectsCarousel = () => {
                 },
             }}
             backwardBtnProps={{
-                children: "<",
+                children: (
+                    <img
+                        className={styles.project_chevron}
+                        src={chevron_left}
+                    ></img>
+                ),
                 style: {
                     width: 60,
                     height: 60,
@@ -100,6 +112,10 @@ const ProjectsCarousel = () => {
             {data.projects.map((project) => {
                 return (
                     <div key={project.name}>
+                        <p className={styles.project_description}>
+                            {project.description}
+                            {chevron_left}
+                        </p>
                         <div className={styles.project} key={project.url}>
                             <a target="_blank" href={project.url}>
                                 <img

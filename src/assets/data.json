@@ -3,35 +3,40 @@
         {
             "name": "ArgentBank",
             "image": "./p11-bank-home.webp",
-            "url": "https://github.com/H9791/ArgentBank"
+            "url": "https://github.com/H9791/ArgentBank",
+            "description": "Project ArgentBank implements front-end for a banking website. Integrates functions like user authentification and transaction display, and uses React and Redux Toolkit for state management."
         },
         {
             "name": "Agence immobiliere",
             "image": "./kasa-banner.webp",
-            "url": "https://github.com/H9791/Kasa"
+            "url": "https://github.com/H9791/Kasa",
+            "description": "Project Kasa is a front-end for a real estate agency that rents properties for short or long term accomodation. KASA is a complete rewrite of a website that was previously implemented in ASP.NET. This updated version uses React as its main technology."
         },
         {
             "name": "Sophie Bluel",
             "image": "./p6-sophiebluel.webp",
-            "url": "https://github.com/H9791/P6-Frontend-Sophie-Bluel/"
+            "url": "https://github.com/H9791/P6-Frontend-Sophie-Bluel/",
+            "description": "Project Sophie Bluel consisted of debugging of a pre-existing website, to ensure correct presentation and dynamic behaviour like sorting and image sliding. Website is coded in React. "
         },
         {
             "name": "OhMyFood",
             "image": "./p4-ohmyfood.webp",
-            "url": "https://github.com/H9791/OhMyFood/"
+            "url": "https://github.com/H9791/OhMyFood/",
+            "description": "Project OhMyFood is a mobile-first website that lists menus of gourmet restaurants. Includes reservation system and possibility to compose your menu ahead of restaurant visit. Website is built with HTML and CSS and shows various front-end animations. "
         },
         {
             "name": "Booki",
             "image": "./p3-booki-portf.webp",
-            "url": "https://github.com/H9791/P3-Booki"
+            "url": "https://github.com/H9791/P3-Booki",
+            "description": "Project Booki consisted of coding frontend for travel agency using HTML and CSS. Website shows many elements that scale and move, depending on the screen resolution. The site is responsive in every aspect and implements rather sophisticated HTML structure and complex CSS."
         },
         {
             "name": "Print It!",
             "image": "./p5-printit.webp",
-            "url": "https://github.com/H9791/Print_It"
+            "url": "https://github.com/H9791/Print_It",
+            "description": "Project Print It! consisted of implementing a dynamic element in form of a slider of images in the website header. Uses HTML, CSS and Javascript for the slider."
         }
     ],
-    "aboutme": "Short description of myself",
     "skills": [
         {
             "name": "React",

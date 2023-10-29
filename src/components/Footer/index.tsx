@@ -10,7 +10,7 @@ const Footer = () => {
                     target="_blank"
                     href="https://www.github.com"
                 >
-                    <a href="https://github.com/H9791">
+                    <a href="https://github.com/H9791" target="_blank">
                         <img
                             className={styles.github_img}
                             src={github_logo}
@@ -20,11 +20,6 @@ const Footer = () => {
                 </a>
             </p>
             <h2 id="contact">CONTACT</h2>
-
-            {/* <p>(+33) 123456789</p>
-            <p>JAN.GREN[AT]MYMAIL[DOT]COM</p>
-             */}
-
             <p>{data.me_contact.tlf}</p>
             <p>{data.me_contact.email}</p>
             <p className={styles.footer_content}>COPYRIGHT ©2023 JAN GREN</p>
