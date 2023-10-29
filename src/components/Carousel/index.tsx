@@ -13,8 +13,6 @@ const ProjectsCarousel = () => {
             containerProps={{
                 style: {
                     position: "relative",
-                    /* flexDirection: "row", */
-                    /* flexWrap: "nowrap", */
                     width: "100%",
                     justifyContent: "space-between",
                     userSelect: "none",
@@ -22,7 +20,7 @@ const ProjectsCarousel = () => {
             }}
             autoplay={true}
             delay={10}
-            autoplayDelay={3000}
+            autoplayDelay={3000000}
             preventScrollOnSwipe
             easing="ease"
             swipeTreshold={60}
@@ -111,10 +109,9 @@ const ProjectsCarousel = () => {
         >
             {data.projects.map((project) => {
                 return (
-                    <div key={project.name}>
+                    <div key={project.name} className={styles.project_stretch}>
                         <p className={styles.project_description}>
                             {project.description}
-                            {chevron_left}
                         </p>
                         <div className={styles.project} key={project.url}>
                             <a target="_blank" href={project.url}>

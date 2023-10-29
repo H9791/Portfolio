@@ -19,9 +19,11 @@ const Footer = () => {
                     </a>
                 </a>
             </p>
-            <h2 id="contact">CONTACT</h2>
-            <p>{data.me_contact.tlf}</p>
-            <p>{data.me_contact.email}</p>
+            <h2 className={styles.footer_contact} id="contact">
+                CONTACT
+            </h2>
+            <p className={styles.footer_tlf_email}>{data.me_contact.tlf}</p>
+            <p className={styles.footer_tlf_email}>{data.me_contact.email}</p>
             <p className={styles.footer_content}>COPYRIGHT ©2023 JAN GREN</p>
         </footer>
     );

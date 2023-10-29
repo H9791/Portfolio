@@ -35,3 +35,9 @@ a {
 a:visited {
     color: #000555;
 }
+
+@media screen and (max-width: 1024px) {
+    /* * {
+        font-size: 50%;
+    } */
+}

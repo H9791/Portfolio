@@ -10,7 +10,7 @@
             "name": "Agence immobiliere",
             "image": "./kasa-banner.webp",
             "url": "https://github.com/H9791/Kasa",
-            "description": "Project Kasa is a front-end for a real estate agency that rents properties for short or long term accomodation. KASA is a complete rewrite of a website that was previously implemented in ASP.NET. This updated version uses React as its main technology."
+            "description": "Project Kasa is a front-end for a real estate agency that rents properties for short or long term accomodation. KASA is a complete rewrite of a website that was previously implemented in ASP.NET. This updated version is build with React."
         },
         {
             "name": "Sophie Bluel",
@@ -28,7 +28,7 @@
             "name": "Booki",
             "image": "./p3-booki-portf.webp",
             "url": "https://github.com/H9791/P3-Booki",
-            "description": "Project Booki consisted of coding frontend for travel agency using HTML and CSS. Website shows many elements that scale and move, depending on the screen resolution. The site is responsive in every aspect and implements rather sophisticated HTML structure and complex CSS."
+            "description": "Project Booki consisted of coding frontend for travel agency using HTML and CSS. Website shows many elements that scale and move, depending on the screen resolution. The site is responsive in every aspect and implements complex HTML and CSS."
         },
         {
             "name": "Print It!",

@@ -7,9 +7,7 @@
     padding: 100px;
     margin-left: 10px;
     margin-right: 10px;
-    /* background-image: linear-gradient(to right, #ddd, #f9f9f9); */
-    /* background-color: #f2bc94; */
-    /* background-image: linear-gradient(to right, #300000, #600000); */
+    font-size: 20px;
 }
 .header_name {
     text-align: center;
@@ -48,8 +46,13 @@ a_link:visited {
     color: #000555;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
     .header {
-        padding: 50px 20px;
+        padding: 50px 20px 30px 20px;
+        font-size: 16px;
+    }
+
+    .header_name {
+        font-size: 30px;
     }
 }

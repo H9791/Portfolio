@@ -24,16 +24,6 @@ const Skills = () => {
                     })}
                 </div>
 
-                {/* {
-                    <ul className={styles.skills_other}>
-                        <li>
-                            {data.skills_text.map((skill) => {
-                                return <li>{skill}</li>;
-                            })}
-                        </li>
-                    </ul>
-                } */}
-
                 <div className={styles.skills_justified}>
                     {data.skills_text.map((skill) => {
                         return (
@@ -44,7 +34,9 @@ const Skills = () => {
                                     src={hand}
                                     alt="hand pointer"
                                 ></img>{" "}
-                                {skill}
+                                <span className={styles.skill_description}>
+                                    {skill}
+                                </span>
                             </>
                         );
                     })}

@@ -20,15 +20,20 @@
 }
 
 .project {
-    /* width: 1024px; */
     width: 60vw;
-    /* height: 600px; */
+
     aspect-ratio: 1/1;
     /* background-color: #e2ac84; */
 
     box-shadow: rgba(0, 0, 0, 0.3) 1px 4px 6px 1px;
     transition: all 0.3s linear;
     margin: 50px;
+    margin-top: 20px;
+}
+.project_stretch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project:hover {
@@ -42,12 +47,13 @@
 }
 
 .project_description {
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    flex-grow: 1;
     color: black;
     margin-left: 50px;
     margin-right: 50px;
-    height: 4rem;
+    margin-bottom: 10px;
+    color: #000555;
 }
 
 .project_chevron {
@@ -56,8 +62,12 @@
     margin: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .projects {
         grid-template-columns: 1fr;
+    }
+
+    .project_description {
+        font-size: 14px;
     }
 }
