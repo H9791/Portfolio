@@ -48,6 +48,7 @@
 
 .project_description {
     display: flex;
+    text-align: justify;
     flex-grow: 1;
     color: black;
     margin-left: 50px;

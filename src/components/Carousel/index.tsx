@@ -53,6 +53,7 @@ const ProjectsCarousel = () => {
                     cursor: "pointer",
                     borderRadius: "20px",
                     marginRight: "10px",
+                    background: "#eeeeee",
                 },
             }}
             backwardBtnProps={{
@@ -77,6 +78,7 @@ const ProjectsCarousel = () => {
                     cursor: "pointer",
                     borderRadius: "20px",
                     marginLeft: "10px",
+                    background: "#eeeeee",
                 },
             }}
             dotsNav={{
